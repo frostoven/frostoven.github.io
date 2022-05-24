@@ -13,7 +13,8 @@ quality showcase is acceptable for now. This will be revised in future to have
 a more professional feel.
 
 All below images generated using the
-[Cosmosis game engine](https://github.com/frostoven/Cosmosis/).
+[Cosmosis game engine](https://github.com/frostoven/Cosmosis/) (unless
+otherwise stated).
 
 ## Early stages
 
@@ -34,7 +35,7 @@ can, at most, see 9,110 stars at night with the naked eye assuming ideal
 conditions (incidentally, my machine could handle 1 million dots before things
 would start crawling).
 
-Random dots to simulate a basic starfield:
+Random dots to simulate a basic starfield (you may need to click to download):
 
 ![starfield.mp4](showcase/first_starfield.mp4)
 
@@ -54,5 +55,32 @@ Star colour needs to mimic Planck's law if you want stars to look good (I
 learned this the hard way after trying generic fade-ey dots). This is the
 final result I ended up with, generated via shader:
 
-![star_colour.gif](showcase/star_colour.png)
+![star_colour.png](showcase/star_colour.png)
 
+Combining this the shader with actual star positions we created earlier, thing
+start looking interesting:
+
+![orion_and_beyond.gif](showcase/orion_and_beyond.gif)
+
+Indeed, do a Google search for Orion's Belt and decide for yourself if this
+looks like a real photo:
+
+![orion.png](showcase/orion.png)
+
+## Graphics
+
+### Random screenshots taken during development
+
+Godrays:
+
+![god_rays.png](showcase/god_rays.png)
+
+Lighting test:
+
+![ds69f.png](showcase/ds69f.png)
+
+In the following screenshot, the ship's shadow is all messed due to
+accidentally calculating backfaces, making it look like a type of carbon
+fibre:
+
+![broken_shadow.jpg](showcase/broken_shadow.jpg)
