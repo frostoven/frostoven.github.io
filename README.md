@@ -1,1 +1,3 @@
-# frostoven.github.io
+# Frostoven pages
+
+* [Cosmosis showcase](showcase.md)
