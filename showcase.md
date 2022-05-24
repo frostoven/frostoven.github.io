@@ -41,7 +41,7 @@ Random dots to simulate a basic starfield:
 
 Accompanying video:
 
-![starfield.mp4](showcase/first_starfield.mp4)
+* [starfield.mp4](showcase/first_starfield.mp4)
 
 ### True star positions
 
@@ -120,7 +120,7 @@ Second ship ever made for the game. It's still under construction:
 
 Accompanying video:
 
-![CELL57.mp4](showcase/CELL57.mp4)
+* [CELL57.mp4](showcase/CELL57.mp4)
 
 Another ship currently being worked on is the Scorpion-D:
 
