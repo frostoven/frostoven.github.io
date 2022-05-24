@@ -45,7 +45,8 @@ Accompanying video:
 
 ### True star positions
 
-I could not find a catalogue of that contains all Earth-visible stars, so I
+I could not find a catalogue that contained all Earth-visible stars
+(with 3D positions), so I
 [made one myself](https://github.com/frostoven/BSC5P-JSON-XYZ). It took waaayyy
 too long to make (50 days). Luckily it does the job.
 
