@@ -35,7 +35,11 @@ can, at most, see 9,110 stars at night with the naked eye assuming ideal
 conditions (incidentally, my machine could handle 1 million dots before things
 would start crawling).
 
-Random dots to simulate a basic starfield (you may need to click to download):
+Random dots to simulate a basic starfield:
+
+![first_starfield.jpg](showcase/first_starfield.jpg)
+
+Accompanying video:
 
 ![starfield.mp4](showcase/first_starfield.mp4)
 
@@ -43,7 +47,7 @@ Random dots to simulate a basic starfield (you may need to click to download):
 
 I could not find a catalogue of that contains all Earth-visible stars, so I
 [made one myself](https://github.com/frostoven/BSC5P-JSON-XYZ). It took waaayyy
-too long to make (50 days) but it does the job.
+too long to make (50 days). Luckily it does the job.
 
 Here is an early experiment rendering it:
 
@@ -52,18 +56,24 @@ Here is an early experiment rendering it:
 ### Generating true star colour
 
 Star colour needs to mimic Planck's law if you want stars to look good (I
-learned this the hard way after trying generic fade-ey dots). This is the
+learned this the hard way after first trying generic fade-ey dots). This is the
 final result I ended up with, generated via shader:
 
 ![star_colour.png](showcase/star_colour.png)
 
-Combining this the shader with actual star positions we created earlier, thing
-start looking interesting:
+Combining the shader with actual star positions we created earlier,
+things start looking interesting:
 
 ![orion_and_beyond.gif](showcase/orion_and_beyond.gif)
 
 Indeed, do a Google search for Orion's Belt and decide for yourself if this
 looks like a real photo:
+<!--
+  Hint: it doesn't :p. There was a bug that caused colours in that
+  screenshot to come out wrong (this was caused by an array offset issue;
+  it has since been fixed as seen in the gif above).
+  TODO: Take a new screenshot where the bug has been fixed.
+-->
 
 ![orion.png](showcase/orion.png)
 
@@ -84,3 +94,63 @@ accidentally calculating backfaces, making it look like a type of carbon
 fibre:
 
 ![broken_shadow.jpg](showcase/broken_shadow.jpg)
+
+## Modelling
+
+All screenshots and videos in this section taken from Blender. Blender is
+currently used exclusively for all modelling.
+
+### Ships currently being worked on
+
+First spaceship ever made for the game, the DS69F:
+<!--
+  This is in the reference to the Deep Space 69 cartoon, where they find an
+  abandoned two-seater spaceship. This ship was inspired by that ship.
+-->
+
+![first_spaceship.png](showcase/first_spaceship.png)
+
+Its cockpit frame is currently being revised:
+
+![frame.jpg](showcase/frame.jpg)
+
+Second ship ever made for the game. It's still under construction:
+
+![second_spaceship.png](showcase/second_spaceship.png)
+
+Accompanying video:
+
+![CELL57.mp4](showcase/CELL57.mp4)
+
+Another ship currently being worked on is the Scorpion-D:
+
+![scorpion_d.png](showcase/scorpion_d.png)
+
+Video showcasing internals:
+
+* [maintenance access.mp4](showcase/scropion_d_maintenance.mp4)
+
+### Random screenshots taken during development
+
+![prototype.png](showcase/prototype.png)
+
+![proto_inside.png](showcase/proto_inside.png)
+
+![experiment.jpg](showcase/experiment.jpg)
+
+### Texture experiments
+
+These will probably never make it into the game, but they served as good
+entertainment, so I decided to add them here.
+
+Jungle Gym style:
+
+![junglegym.jpg](showcase/junglegym.jpg)
+
+Space Tractor:
+
+![space_tractor.jpg](showcase/space_tractor.jpg)
+
+Cloth Ship:
+
+![cloth_ship.jpg](showcase/cloth_ship.jpg)
