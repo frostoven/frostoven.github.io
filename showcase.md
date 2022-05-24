@@ -18,4 +18,5 @@ a more professional feel.
 Very first gif recorded to show literally anything. In this image, the Sun,
 Moon, and Earth are to scale and have real-world distance. Their rotations are
 wrong, though.
+
 ![demo](showcase/demo.gif)
