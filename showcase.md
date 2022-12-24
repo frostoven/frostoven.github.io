@@ -144,7 +144,7 @@ Video showcasing internals:
 Overloading the power grid causes other parts to malfunction. In this case,
 the lights dim when adding a massive power drain:
 
-![demo.gif](showcase/lights and power grid.gif)
+![demo.gif](showcase/lights_and_power_grid.gif)
 
 ### Texture experiments
 
