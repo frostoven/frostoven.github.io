@@ -139,6 +139,13 @@ Video showcasing internals:
 
 ![experiment.jpg](showcase/experiment.jpg)
 
+### Initial experiments with ship power
+
+Overloading the power grid causes other parts to malfunction. In this case,
+the lights dim when adding a massive power drain:
+
+![demo.gif](showcase/lights and power grid.gif)
+
 ### Texture experiments
 
 These will probably never make it into the game, but they served as good
