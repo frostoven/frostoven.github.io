@@ -102,6 +102,7 @@ All screenshots and videos in this section taken from Blender. Blender is
 currently used exclusively for all modelling.
 
 ### Ships currently being worked on
+_Following screenshots taken from Blender_
 
 First spaceship ever made for the game, the DS69F:
 <!--
@@ -111,9 +112,9 @@ First spaceship ever made for the game, the DS69F:
 
 ![first_spaceship.png](showcase/first_spaceship.png)
 
-Its cockpit frame is currently being revised:
+Some remastering after a few months:
 
-![frame.jpg](showcase/frame.jpg)
+![frame.jpg](showcase/ds69f_remaster.png)
 
 Second ship ever made for the game. It's still under construction:
 
