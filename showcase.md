@@ -83,7 +83,7 @@ looks like a real photo:
 ### Random screenshots taken during development
 
 
-Godrays and lighting tests:
+God rays and lighting tests:
 
 ![god_rays.png](showcase/god_rays.png)
 
