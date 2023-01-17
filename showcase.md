@@ -82,11 +82,14 @@ looks like a real photo:
 
 ### Random screenshots taken during development
 
-Godrays:
+
+Godrays and lighting tests:
 
 ![god_rays.png](showcase/god_rays.png)
 
-Lighting test:
+![god_rays.png](showcase/lighting2.png)
+
+![god_rays.png](showcase/lighting3.png)
 
 ![ds69f.png](showcase/ds69f.png)
 
