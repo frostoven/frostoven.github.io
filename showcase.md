@@ -68,15 +68,13 @@ things start looking interesting:
 ![orion_and_beyond.gif](showcase/orion_and_beyond.gif)
 
 Indeed, do a Google search for Orion's Belt and decide for yourself if this
-looks like a real photo:
-<!--
-  Hint: it doesn't :p. There was a bug that caused colours in that
-  screenshot to come out wrong (this was caused by an array offset issue;
-  it has since been fixed as seen in the gif above).
-  TODO: Take a new screenshot where the bug has been fixed.
--->
+screenshot looks like a real photo:
 
-![orion.png](showcase/orion.png)
+![orion.jpg](showcase/orion.jpg)
+
+Initial work on Milky Way cloud generation:
+
+![milky_way.png](showcase/procedural_milky_way.png)
 
 ## Graphics
 
