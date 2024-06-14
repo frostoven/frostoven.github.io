@@ -70,7 +70,7 @@ things start looking interesting:
 Indeed, do a Google search for Orion's Belt and decide for yourself if this
 screenshot looks like a real photo:
 
-![orion.jpg](showcase/orion.jpg)
+![orion.jpg](showcase/orion.png)
 
 Initial work on Milky Way cloud generation:
 
